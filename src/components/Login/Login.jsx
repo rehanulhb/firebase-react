@@ -27,6 +27,7 @@ const Login = () => {
                 <h3>User: {user.displayName}</h3>
                 <p>Email : {user.email}</p>
                 <img src={user.photoURL} alt="" />
+                <h4>Updated Login info</h4>
             </div>}
         </div>
     );
